@@ -1,3 +1,6 @@
+/* Farhad Islam
+Software Developer
+Newcastle */
 
 val cityCodes = Map(
     "London"->"Ln",
@@ -22,4 +25,8 @@ val cityCodes2 = (cities zip codes).toMap
 
 //Now, I will convert set of keys into List
 
-val states = cityCodes2.keySet.toList
+val cities = cityCodes2.keySet.toList
+
+//Getting values is pretty much the same
+
+val codes = cityCodes2.values.toList
