@@ -1,0 +1,25 @@
+
+val cityCodes = Map(
+    "London"->"Ln",
+    "Chittagong"->"Ctg",
+    ("Rangpur", "Rng")
+)
+//Key value pair can either be used using -> notation or parenthesis 
+
+// this will return false
+cityCodes.contains("Newcastle")
+
+
+//Higher order functions
+cityCodes.forEach((p:(String, String)) => println(p._1 +"="+ p._2)
+
+//converting two lists into Map
+
+val cities = List("Birmingham", "New York", "Tokyo")
+val codes = List("Br", "NY", "Tk")
+
+val cityCodes2 = (cities zip codes).toMap
+
+//Now, I will convert set of keys into List
+
+val states = cityCodes2.keySet.toList
