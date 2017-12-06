@@ -1,6 +1,9 @@
 val answer = if(3/3 != 0 )0 else 1
 println(answer)
 for(x<-1 to 100)println(x)
+val weekDays = List("Mon", "Tues", "Wed","Thurs", "Fri", "Sat")
+weekDays.forEach(println(_))
+weekDays.map(_=="Mon")
 val days1 = List("Mon", "Tues", "Wed")
 val days2 = List("Thurs", "Fri", "Sat")
 val weekDays1 = days1 ++ days2
