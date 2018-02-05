@@ -1,7 +1,39 @@
+h1 {
+    color:#BB00CC;
+    border-bottom: 2px solid #0000FF;
+    margin-bottom: 50px;
+    padding : 3px 3px 3px 6px;
+}
+
+h2{
+    padding-top: 20px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+
+    border-bottom: 2px solid #00FFFF;
+
+    margin-top: 16px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+
 p {
-    color: red;
+    color:#6600FF;
+}
+
+li {
+    font-size: 50 px;
 }
 
 body {
-    background-color: #fff;
+    background-color: #AABBFF;
+    padding : 20px 20px 20px 20px ;
+}
+
+a:hover{
+text-decoration: underline;
+color: darkgoldenrod;
 }
