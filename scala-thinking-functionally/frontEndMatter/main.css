@@ -6,8 +6,6 @@ body{
     text-align: left;
 }
 
-
-
 h1 {
     color:#BB00EE;
     margin-bottom: 50px;
@@ -16,7 +14,7 @@ h1 {
     border-bottom: 2px solid #0000FF;
 }
 
-h2{
+h2{                                                                                                                                                                                                                                                       
     color : #EE0000;
     padding-top: 20px;
     padding-right: 6px;
