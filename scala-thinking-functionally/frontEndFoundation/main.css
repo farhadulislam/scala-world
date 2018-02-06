@@ -96,16 +96,14 @@ ol {
   margin: 0 auto 15px auto;
   display: block;
 }
-.recording-now {
-  width : 440px;
-  height : 200px;
-  background: #ffffff url(images/prependers-recording.jpg) top left no-repeat;
-
-}
-
 .recording-now p {
-
-  font-size : 28px;
   color: #ffffff;
-  
+  font-size: 28px;
+}
+.recording-now {
+  width: 440px;
+  height: 200px;
+  background: #ffffff url(images/prependers-recording.jpg) center center no-repeat;
+  border : 1px solid;
+  padding : 4px;
 }
