@@ -7,7 +7,11 @@ val firstElement = weekDays1.head // returns first element of a List
 val lastElement =  weekDays1.tail
 val sizeOfList = weekDays1.size
 
-val isMonDayIn = weekDays1.contain("Mon")
+val isMonDayIn = weekDays1.contains("Mon")
 
 //for loop on a List
 for (x <- weekDays1) println(x)
+
+class ChecksumAccumulator {
+  var sum = 0
+}

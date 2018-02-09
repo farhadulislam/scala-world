@@ -19,3 +19,9 @@ val isMonDayIn = {
 
 //for loop on a List
 for (x <- weekDays1) println(x)
+
+def min(x:Int,y :Int): Int = if x<y x else y
+
+println()
+
+//
