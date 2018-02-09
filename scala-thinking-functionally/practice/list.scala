@@ -12,6 +12,4 @@ val isMonDayIn = weekDays1.contains("Mon")
 //for loop on a List
 for (x <- weekDays1) println(x)
 
-class ChecksumAccumulator {
-  var sum = 0
-}
+
